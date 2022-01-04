@@ -58,7 +58,21 @@ h1 {
   padding-left: 20px;
   box-shadow: 10px 10px 40px gray;
   border-radius: 10px;
+  border-left: 10px solid;
 }
 .experience-area {
   padding-bottom: 150px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+#webDev {
+  border-image: linear-gradient(yellow, cyan);
+  border-image-slice: 1;
+}
+#babyDev {
+  border-image: linear-gradient(red, yellow);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
