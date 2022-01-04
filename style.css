@@ -11,6 +11,9 @@ h1 {
 .section-flex {
   display: flex;
 }
+.expercesHtag {
+  padding-left: 5%;
+}
 .flex-container {
   display: flex;
 }
