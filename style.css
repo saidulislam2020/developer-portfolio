@@ -14,6 +14,8 @@ section {
 .half-width {
   width: 50%;
   padding-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 100px;
 }
 .half-width img {
   width: 90%;
@@ -26,7 +28,20 @@ section {
   padding: 10px 40px;
   border-radius: 5px;
 }
+.download-button {
+  text-decoration: none;
+  color: azure;
+  background-image: linear-gradient(orange, tomato);
+  font-weight: 700;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.background-banner {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
